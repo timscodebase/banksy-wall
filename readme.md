@@ -1,7 +1,10 @@
-1) Download and unzip Mojave dynamic background here: https://files.rb.gd/banksy.zip 
-2) Rename the extracted folder as "banksy" (Excuse the trouble but I renamed it on my machine and already use that path in the XML file)
-3) Save this xml file next to the Mojave background files
-4) Fix the path to the background images below (better using absolute path)
-5) Lastly, either: 
+# Banksy Wall
+![alt text](banksy-10.png)
+## A dynamic Banksy inspired wallpaper for Linux
+
+1) Clone the banksy-wall repo into`~/Pictures/wallpaper`:
+`git clone git@github.com:timscodebase/banksy-wall.git` 
+2) Open the `banksy-wall.xml` in your editor of choice and replace all instances of `**YOUR_USERNAME**` with your user name
+3) Lastly: 
   - GNOME: Use gnome-tweaks tool to select this XML as wallpaper (as default wallpaper settings won't let you choose wallpaper from custom path)
   - MATE: Go to background setting (in Appearance) > Choose +Add... > make sure **All files** filter is selected at the bottom right > Then choose mojave.xml
