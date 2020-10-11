@@ -2,7 +2,7 @@
 ![alt text](banksy-10.png)
 ## A dynamic Banksy inspired wallpaper for Linux
 
-1) Clone the banksy-wall repo into`~/Pictures/wallpaper`:
+1) Clone the banksy-wall repo into`/home/**YOUR_USERNAME**/Pictures/wallpaper/`:
 `git clone git@github.com:timscodebase/banksy-wall.git` 
 2) Open the `banksy-wall.xml` in your editor of choice and replace all instances of `**YOUR_USERNAME**` with your user name
 3) Lastly: 
